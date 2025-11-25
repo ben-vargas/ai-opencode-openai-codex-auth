@@ -44,11 +44,11 @@
     "node": ">=20.0.0"
   },
   "peerDependencies": {
-    "@opencode-ai/plugin": "^0.13.7"
+    "@opencode-ai/plugin": "^1.0.112"
   },
   "devDependencies": {
-    "@opencode-ai/plugin": "^0.13.7",
-    "@opencode-ai/sdk": "^0.13.9",
+    "@opencode-ai/plugin": "^1.0.112",
+    "@opencode-ai/sdk": "^1.0.112",
     "@types/node": "^24.6.2",
     "@vitest/ui": "^3.2.4",
     "typescript": "^5.9.3",
