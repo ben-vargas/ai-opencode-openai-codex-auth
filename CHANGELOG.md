@@ -2,6 +2,24 @@
 
 All notable changes to this project are documented here. Dates use the ISO format (YYYY-MM-DD).
 
+## [4.0.1] - 2025-11-25
+
+### Security
+- **Fixed moderate vulnerability**: Upgraded dependencies to resolve js-yaml prototype pollution vulnerability (GHSA-mh29-5h37-fv8m)
+
+### Changed
+- Upgraded `@opencode-ai/plugin` from `^0.13.7` to `^1.0.112`
+- Upgraded `@opencode-ai/sdk` from `^0.13.9` to `^1.0.112`
+- Updated `peerDependencies` to match (`^1.0.112`)
+- Removed 60 unused transitive dependencies (187 → 127 total packages)
+- Cleaner dependency tree with no vulnerable packages
+
+### Verified
+- All 191 tests passing with new versions
+- Zero npm audit vulnerabilities (was 1 moderate)
+- Build successful, no TypeScript errors
+- Full backward compatibility maintained
+
 ## [4.0.0] - 2025-11-25
 
 **Major release**: Complete prompt engineering overhaul matching official Codex CLI behavior, with full **GPT-5.1 Codex Max** support.
